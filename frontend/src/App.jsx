@@ -1,18 +1,7 @@
-import Card from "./components/common/Card";
-import Logo from "./components/common/Logo";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-black p-6">
-
-      <Card>
-
-        <Logo />
-
-      </Card>
-
-    </div>
-  );
+  return <AppRoutes />;
 }
 
 export default App;

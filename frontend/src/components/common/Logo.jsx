@@ -1,38 +1,31 @@
 function Logo() {
-    return (
-        <div className="flex flex-col items-center gap-4">
+  return (
+    <div>
 
-            <div className="
-                h-16
-                w-16
-                rounded-2xl
-                bg-orange-500
-                flex
-                items-center
-                justify-center
-                shadow-lg
-            ">
+      <div className="flex items-center gap-4">
 
-                <span className="text-3xl font-black text-white">
-                    CP
-                </span>
+        <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-orange-500 text-3xl font-black text-white shadow-lg">
 
-            </div>
-
-            <div className="text-center">
-
-                <h1 className="text-3xl font-bold">
-                    CareerPilot AI
-                </h1>
-
-                <p className="mt-1 text-sm text-gray-400">
-                    Your AI Copilot for Landing Your Dream Job
-                </p>
-
-            </div>
+          CP
 
         </div>
-    );
+
+        <div>
+
+          <h1 className="text-4xl font-bold">
+            CareerPilot AI
+          </h1>
+
+          <p className="mt-1 text-zinc-400">
+            Your AI Copilot
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  );
 }
 
 export default Logo;
